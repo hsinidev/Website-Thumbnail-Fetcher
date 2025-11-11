@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Instantly generate stunning, high-quality website thumbnails and screenshots with our live preview tool. Enter any URL, customize options, and get a perfect visual preview. The ultimate free screenshot generator for developers and marketers."
+    />
+    <title>Website Thumbnail Fetcher - Live Screenshot Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @keyframes move-twink-back {
+        from {background-position:0 0;}
+        to {background-position:-10000px 5000px;}
+      }
+      .stars, .twinkling {
+        position:absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        width:100%;
+        height:100%;
+        display:block;
+      }
+      .stars {
+        background:#000 url(https://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+        z-index:-3;
+      }
+      .twinkling{
+        background:transparent url(https://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+        z-index:-2;
+        animation:move-twink-back 200s linear infinite;
+      }
+    </style>
+     <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "url": "https://your-domain.com/",
+          "name": "Website Thumbnail Fetcher",
+          "description": "Generate high-quality website thumbnails and screenshots instantly. Our powerful tool provides live visual previews of any URL with customizable options. Perfect for developers, marketers, and content creators.",
+          "publisher": {
+            "@type": "Organization",
+            "name": "HSINI MOHAMED",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://your-domain.com/favicon.svg"
+            }
+          }
+        },
+        {
+          "@type": "WebApplication",
+          "name": "Website Thumbnail Fetcher Tool",
+          "url": "https://your-domain.com/",
+          "applicationCategory": "DeveloperApplication",
+          "operatingSystem": "All",
+          "browserRequirements": "Requires a modern web browser.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0"
+          }
+        },
+        {
+          "@type": "Article",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://your-domain.com/"
+          },
+          "headline": "The Ultimate Guide to Website Thumbnails and Screenshot APIs",
+          "datePublished": "2023-10-27",
+          "dateModified": "2023-10-27",
+          "author": {
+            "@type": "Person",
+            "name": "HSINI MOHAMED"
+          },
+          "publisher": {
+             "@type": "Organization",
+            "name": "HSINI MOHAMED",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://your-domain.com/favicon.svg"
+            }
+          },
+          "description": "An in-depth exploration of website thumbnails, why they are essential for modern web applications, the technical challenges like CORS, and how third-party screenshot APIs provide a powerful solution."
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Why can't I take a screenshot of a website directly in the browser with JavaScript?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Browsers enforce strict security policies, like the Same-Origin Policy and Content Security Policy (CSP), to prevent malicious scripts from stealing user data. These policies block a script from one domain (your website) from accessing the content of another domain (the target website loaded in an iframe or canvas), a process known as Cross-Origin Resource Sharing (CORS) restriction. This is a fundamental security feature of the web."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is a Screenshot API?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A Screenshot API is a specialized web service that takes a URL as input and returns a high-quality image (screenshot) of that webpage. These services run powerful, automated browsers in a secure server environment, bypassing the client-side security restrictions you'd face in a user's browser. They handle all the rendering, timing, and image capture complexities for you."
+              }
+            },
+            {
+                "@type": "Question",
+                "name": "What are the common use cases for website thumbnails?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Website thumbnails are used for social media link previews (e.g., on Twitter, Facebook), enriching search engine results, automated website monitoring, visual feedback in web development, creating portfolios, and enhancing user experience in bookmarking or history features."
+                }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-black">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "name": "Website Thumbnail Fetcher",
+  "description": "A modern tool to generate high-quality website screenshots and thumbnails by providing a URL. Features a dynamic interface and simulated external API integration for live previews.",
+  "requestFramePermissions": []
+}
