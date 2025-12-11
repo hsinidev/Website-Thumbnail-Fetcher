@@ -11,7 +11,7 @@
 
 ## 🚀 LIVE DEMO
 
-[**CLICK HERE TO OPEN LIVE DEMO: doodax.com**](https://doodax.com) 
+[**CLICK HERE TO OPEN LIVE DEMO: doodax.com**](https://doodax.com/tools/website-thumbnail-fetcher/index.html) 
 *(Opens in a new tab)*
 
 ---
